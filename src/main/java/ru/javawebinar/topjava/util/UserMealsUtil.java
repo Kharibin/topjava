@@ -29,6 +29,7 @@ public class UserMealsUtil {
     }
 
     public static List<UserMealWithExceed>  getFilteredWithExceeded(List<UserMeal> mealList, LocalTime startTime, LocalTime endTime, int caloriesPerDay) {
+        mealList.stream().
         // TODO return filtered list with correctly exceeded field
         return null;
     }

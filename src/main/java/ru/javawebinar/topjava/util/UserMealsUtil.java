@@ -39,7 +39,6 @@ public class UserMealsUtil {
                             .map(meal -> new UserMealWithExceed(meal, exceed));
                 })
                 .collect(Collectors.toList());
-        // TODO return filtered list with correctly exceeded field
         return null;
     }
 }

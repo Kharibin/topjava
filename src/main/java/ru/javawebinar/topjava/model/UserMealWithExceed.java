@@ -21,4 +21,11 @@ public class UserMealWithExceed {
         this.calories = calories;
         this.exceed = exceed;
     }
+
+    public UserMealWithExceed(UserMeal um, boolean exceed) {
+        this.dateTime = um.getDateTime();
+        this.description = um.getDescription();
+        this.calories = um.getCalories();
+        this.exceed = exceed;
+    }
 }
